@@ -21,6 +21,9 @@ div.left {
 div.right{
 
         position: absolute;
+		width:300px;
+        height:300px;
+        left:300px;
         background-image: url("https://assets.pokemon.com/assets/cms2/img/watch-pokemon-tv/seasons/season20/season20_ep29_ss01.jpg");
         transition: .5s ease;
         z-index:-1;
@@ -28,6 +31,7 @@ div.right{
 }
 
 .right:hover{
-    clip: rect(0px,600px,300px,0px);
+    left:0px;
     z-index: 200;
+    width:600px;
 }
